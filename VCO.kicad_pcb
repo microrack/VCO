@@ -217,7 +217,7 @@
       (net 2 GNDREF))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model /home/maxx/Project/work/modules/Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -253,7 +253,7 @@
       (net 1 +5V))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -289,7 +289,7 @@
       (net 2 GNDREF))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -325,7 +325,7 @@
       (net 3 "Net-(C3-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -361,7 +361,7 @@
       (net 5 -5V))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -397,7 +397,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 5 -5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -433,7 +433,7 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 7 "Net-(C6-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -474,7 +474,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -515,7 +515,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(Q2-Pad3)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -556,7 +556,7 @@
       (net 2 GNDREF))
     (pad 1 smd rect (at -1 -0.95 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(Q3-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -592,7 +592,7 @@
       (net 4 "Net-(C3-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -628,7 +628,7 @@
       (net 14 "Net-(Q2-Pad3)"))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 17 "Net-(R2-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -664,7 +664,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 /IN_1))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -700,7 +700,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 9 /IN_2))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -736,7 +736,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -772,7 +772,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C3-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -808,7 +808,7 @@
       (net 8 /IN_1))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -844,7 +844,7 @@
       (net 9 /IN_2))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -880,7 +880,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -916,7 +916,7 @@
       (net 19 "Net-(R10-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 18 "Net-(R10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -952,7 +952,7 @@
       (net 20 "Net-(R11-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 31 "Net-(J10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -988,7 +988,7 @@
       (net 21 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 "Net-(C6-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1024,7 +1024,7 @@
       (net 32 "Net-(J10-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 20 "Net-(R11-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1060,7 +1060,7 @@
       (net 21 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 22 "Net-(R14-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1096,7 +1096,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 22 "Net-(R14-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1132,7 +1132,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1168,7 +1168,7 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 15 "Net-(Q3-Pad3)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1204,7 +1204,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R18-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1240,7 +1240,7 @@
       (net 25 "Net-(R19-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R18-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1276,7 +1276,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1312,7 +1312,7 @@
       (net 26 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(R21-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1348,7 +1348,7 @@
       (net 16 "Net-(Q3-Pad1)"))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 "Net-(R19-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1384,7 +1384,7 @@
       (net 26 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1420,7 +1420,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
+    (model ${KIPRJMOD}/../library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1462,7 +1462,7 @@
       (net 12 "Net-(Q1-Pad1)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 18 "Net-(R10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.step
+    (model ${KIPRJMOD}/../library/footprint/3D/3296w.step
       (offset (xyz -5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1504,7 +1504,7 @@
       (net 17 "Net-(R2-Pad1)"))
     (pad 3 thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 21 "Net-(R12-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.step
+    (model ${KIPRJMOD}/../library/footprint/3D/3296w.step
       (offset (xyz -5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1549,7 +1549,7 @@
       (net 19 "Net-(R10-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
+    (model ${KIPRJMOD}/../library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1594,7 +1594,7 @@
       (net 28 "Net-(RV4-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 29 "Net-(RV4-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
+    (model ${KIPRJMOD}/../library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1639,7 +1639,7 @@
       (net 5 -5V))
     (pad 4 thru_hole circle (at -4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
     (pad 5 thru_hole circle (at 4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
+    (model ${KIPRJMOD}/../library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1665,7 +1665,7 @@
       (net 7 "Net-(C6-Pad1)"))
     (pad 1 thru_hole roundrect (at -2.5 0 90) (size 2 2) (drill 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 30 "Net-(S1-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SMTS-102.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SMTS-102.step
       (offset (xyz -7.77 -2.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
@@ -1731,7 +1731,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 1 smd rect (at -2.7 3.81 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask)
       (net 12 "Net-(Q1-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1794,7 +1794,7 @@
     (pad 12 smd rect (at 2.7 1.27 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
     (pad 13 smd rect (at 2.7 2.54 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
     (pad 14 smd rect (at 2.7 3.81 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
+    (model ${KIPRJMOD}/../library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1840,7 +1840,7 @@
       (net 2 GNDREF))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1886,7 +1886,7 @@
       (net 2 GNDREF))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model /home/maxx/Project/work/modules/Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model /home/maxx/Project/work/modules/library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1932,7 +1932,7 @@
       (net 5 -5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1978,7 +1978,7 @@
       (net 5 -5V))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2018,7 +2018,7 @@
       (net 31 "Net-(J10-Pad1)"))
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 32 "Net-(J10-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x02_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x02_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2064,7 +2064,7 @@
       (net 5 -5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2102,7 +2102,7 @@
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x01_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x01_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2148,7 +2148,7 @@
       (net 1 +5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2194,7 +2194,7 @@
       (net 1 +5V))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2236,7 +2236,7 @@
       (net 9 /IN_2))
     (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2282,7 +2282,7 @@
       (net 1 +5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
+    (model ${KIPRJMOD}/../library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
