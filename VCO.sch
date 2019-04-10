@@ -188,6 +188,7 @@ F 1 "10K" H 3100 3000 50  0000 R CNN
 F 2 "footprint:PTV09A4020FB103" H 3200 3050 50  0001 C CNN
 F 3 "~" H 3200 3050 50  0001 C CNN
 F 4 "R0904N-A10K" H 2900 2850 50  0000 C CNN "Тип"
+F 5 "Detune" H 3400 2950 50  0000 C CNN "Поле5"
 	1    3200 3050
 	1    0    0    -1  
 $EndComp
@@ -288,6 +289,7 @@ F 1 "10K" V 3694 900 50  0000 C CNN
 F 2 "footprint:w3296w" H 3900 900 50  0001 C CNN
 F 3 "~" H 3900 900 50  0001 C CNN
 F 4 "3296" V 3900 900 39  0000 C CNN "Тип"
+F 5 "Tune 1" V 3800 650 50  0000 C CNN "Поле5"
 	1    3900 900 
 	0    -1   -1   0   
 $EndComp
@@ -410,6 +412,7 @@ F 1 "10K" V 7544 1050 50  0000 C CNN
 F 2 "footprint:w3296w" H 7750 1050 50  0001 C CNN
 F 3 "~" H 7750 1050 50  0001 C CNN
 F 4 "3296" V 7750 1050 39  0000 C CNN "Тип"
+F 5 "Tune 2" V 7650 1300 50  0000 C CNN "Поле5"
 	1    7750 1050
 	0    -1   -1   0   
 $EndComp
@@ -790,6 +793,7 @@ F 1 "10K" H 5100 5950 50  0000 R CNN
 F 2 "footprint:PTV09A4020FB103" H 5150 6150 50  0001 C CNN
 F 3 "~" H 5150 6150 50  0001 C CNN
 F 4 "R0904N-A10K" V 4900 5950 50  0000 C CNN "Тип"
+F 5 "PW" V 5250 5900 50  0000 C CNN "Поле5"
 	1    5150 6150
 	1    0    0    -1  
 $EndComp
@@ -914,6 +918,7 @@ F 1 "10K" H 7180 5000 50  0000 R CNN
 F 2 "footprint:PTV09A4020FB103" H 7250 5000 50  0001 C CNN
 F 3 "~" H 7250 5000 50  0001 C CNN
 F 4 "R0904N-A10K" H 7150 4850 50  0000 R CNN "Тип"
+F 5 "Gain" H 7400 4800 50  0000 C CNN "Поле5"
 	1    7250 5000
 	1    0    0    -1  
 $EndComp
@@ -1217,17 +1222,6 @@ F 3 "" H 10250 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L uRack:Conn_01x05_Male J2
-U 1 1 5C943612
-P 10250 1400
-F 0 "J2" H 10223 1330 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 10223 1421 50  0000 R CNN
-F 2 "footprint:pls1x05" H 10250 1400 50  0001 C CNN
-F 3 "" H 10250 1400 50  0001 C CNN
-	1    10250 1400
-	-1   0    0    1   
-$EndComp
-$Comp
 L uRack:Conn_01x05_Male J1
 U 1 1 5C943702
 P 10250 900
@@ -1236,17 +1230,6 @@ F 1 "Conn_01x05_Male" H 10223 921 50  0000 R CNN
 F 2 "footprint:pls1x05" H 10250 900 50  0001 C CNN
 F 3 "" H 10250 900 50  0001 C CNN
 	1    10250 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L uRack:Conn_01x05_Male J7
-U 1 1 5C94382B
-P 10300 3450
-F 0 "J7" H 10273 3380 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 10273 3471 50  0000 R CNN
-F 2 "footprint:pls1x05" H 10300 3450 50  0001 C CNN
-F 3 "" H 10300 3450 50  0001 C CNN
-	1    10300 3450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1293,21 +1276,6 @@ F 3 "" H 10250 4600 50  0001 C CNN
 	1    10250 4600
 	-1   0    0    1   
 $EndComp
-$Comp
-L uRack:Conn_01x05_Male J11
-U 1 1 5C945458
-P 10250 5150
-F 0 "J11" H 10223 5080 50  0000 R CNN
-F 1 "Conn_01x05_Male" V 10223 5171 50  0000 R CNN
-F 2 "footprint:pls1x05" H 10250 5150 50  0001 C CNN
-F 3 "" H 10250 5150 50  0001 C CNN
-	1    10250 5150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10050 5350 9900 5350
-Wire Wire Line
-	9900 5350 9900 5250
 Wire Wire Line
 	9900 3900 10050 3900
 Wire Wire Line
@@ -1351,28 +1319,7 @@ Connection ~ 9900 4700
 Wire Wire Line
 	9900 4700 9900 4600
 Wire Wire Line
-	10050 5250 9900 5250
-Connection ~ 9900 5250
-Wire Wire Line
-	9900 5250 9900 5150
-Wire Wire Line
-	10050 5150 9900 5150
-Connection ~ 9900 5150
-Wire Wire Line
-	9900 5150 9900 5050
-Wire Wire Line
-	10050 5050 9900 5050
-Connection ~ 9900 5050
-Wire Wire Line
-	9900 5050 9900 4950
-Wire Wire Line
-	10050 4950 9900 4950
-Connection ~ 9900 4950
-Wire Wire Line
-	9900 4950 9900 4800
-Wire Wire Line
 	10050 4800 9900 4800
-Connection ~ 9900 4800
 Wire Wire Line
 	9900 4800 9900 4700
 Wire Wire Line
@@ -1381,10 +1328,6 @@ Connection ~ 9900 3900
 Wire Wire Line
 	9350 3200 9900 3200
 Wire Wire Line
-	10100 3650 10050 3650
-Wire Wire Line
-	10050 3650 10050 3550
-Wire Wire Line
 	10050 2250 10100 2250
 Wire Wire Line
 	10100 2350 10050 2350
@@ -1392,28 +1335,7 @@ Connection ~ 10050 2350
 Wire Wire Line
 	10050 2350 10050 2250
 Wire Wire Line
-	10100 3550 10050 3550
-Connection ~ 10050 3550
-Wire Wire Line
-	10050 3550 10050 3450
-Wire Wire Line
-	10100 3450 10050 3450
-Connection ~ 10050 3450
-Wire Wire Line
-	10050 3450 10050 3350
-Wire Wire Line
-	10100 3350 10050 3350
-Connection ~ 10050 3350
-Wire Wire Line
-	10050 3350 10050 3250
-Wire Wire Line
-	10100 3250 10050 3250
-Connection ~ 10050 3250
-Wire Wire Line
-	10050 3250 10050 3150
-Wire Wire Line
 	10100 3150 10050 3150
-Connection ~ 10050 3150
 Wire Wire Line
 	10050 3150 10050 3050
 Wire Wire Line
@@ -1483,35 +1405,8 @@ Connection ~ 10000 1100
 Wire Wire Line
 	10000 1100 10000 1000
 Wire Wire Line
-	10050 1200 10000 1200
-Connection ~ 10000 1200
-Wire Wire Line
-	10000 1200 10000 1100
-Wire Wire Line
-	10050 1300 10000 1300
-Connection ~ 10000 1300
-Wire Wire Line
-	10000 1300 10000 1200
-Wire Wire Line
-	10050 1400 10000 1400
-Connection ~ 10000 1400
-Wire Wire Line
-	10000 1400 10000 1300
-Wire Wire Line
-	10050 1500 10000 1500
-Connection ~ 10000 1500
-Wire Wire Line
-	10000 1500 10000 1400
-Wire Wire Line
-	10050 1600 10000 1600
-Connection ~ 10000 1600
-Wire Wire Line
-	10000 1600 10000 1500
-Wire Wire Line
 	10050 1700 10000 1700
 Connection ~ 10000 1700
-Wire Wire Line
-	10000 1700 10000 1600
 Wire Wire Line
 	10050 1800 10000 1800
 Connection ~ 10000 1800
@@ -1550,6 +1445,7 @@ F 8 "70192098" H 7850 3650 50  0001 L CNN "Allied_Number"
 F 9 "https://www.alliedelec.com/nkk-switches-m2013ss1w03/70192098/" H 7850 3550 50  0001 L CNN "Allied Price/Stock"
 F 10 "633-M201303" H 7850 3450 50  0001 L CNN "Mouser Part Number"
 F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=633-M201303" H 7850 3350 50  0001 L CNN "Mouser Price/Stock"
+F 12 "SAW/SQ" H 7500 4600 50  0000 C CNN "Поле12"
 	1    7200 4350
 	-1   0    0    1   
 $EndComp
@@ -1557,4 +1453,6 @@ Wire Wire Line
 	7250 4850 7250 4350
 Wire Wire Line
 	7250 4350 7200 4350
+Wire Wire Line
+	10000 1100 10000 1700
 $EndSCHEMATC
