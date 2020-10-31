@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:VCO-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -122,7 +122,7 @@ L uRack:Conn_01x03_Male J3
 U 1 1 5C6B1995
 P 1450 1500
 F 0 "J3" H 1556 1778 50  0000 C CNN
-F 1 "Input" H 1556 1687 50  0000 C CNN
+F 1 "V/oct" H 1556 1687 50  0000 C CNN
 F 2 "footprint:pls1x03" H 1450 1500 50  0001 C CNN
 F 3 "~" H 1450 1500 50  0001 C CNN
 	1    1450 1500
@@ -402,38 +402,11 @@ F 3 "~" H 7250 1050 50  0001 C CNN
 	1    7250 1050
 	0    1    1    0   
 $EndComp
-$Comp
-L uRack:R_POT RV2
-U 1 1 5C6B950B
-P 7750 1050
-F 0 "RV2" V 7635 1050 50  0000 C CNN
-F 1 "10K" V 7544 1050 50  0000 C CNN
-F 2 "footprint:w3296w" H 7750 1050 50  0001 C CNN
-F 3 "~" H 7750 1050 50  0001 C CNN
-F 4 "3296" V 7750 1050 39  0000 C CNN "Тип"
-	1    7750 1050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7000 1050 7100 1050
 Connection ~ 7000 1050
 Wire Wire Line
-	7400 1050 7500 1050
-Wire Wire Line
-	7500 1050 7500 850 
-Wire Wire Line
-	7500 850  7750 850 
-Wire Wire Line
-	7750 850  7750 900 
-Connection ~ 7500 1050
-Wire Wire Line
-	7500 1050 7600 1050
-Wire Wire Line
 	7650 1550 8050 1550
-Wire Wire Line
-	8050 1550 8050 1050
-Wire Wire Line
-	8050 1050 7900 1050
 $Comp
 L uRack:GNDREF #PWR03
 U 1 1 5C6BB8FE
@@ -572,7 +545,6 @@ Wire Wire Line
 	8050 1550 8050 3900
 Wire Wire Line
 	8050 3900 1650 3900
-Connection ~ 8050 1550
 Connection ~ 1650 4950
 Wire Wire Line
 	1650 3900 1650 4950
@@ -881,17 +853,6 @@ Wire Wire Line
 	5150 6300 5150 6400
 Wire Wire Line
 	5300 7100 5300 7250
-$Comp
-L uRack:Conn_01x01_Male J12
-U 1 1 5C76364C
-P 4350 7000
-F 0 "J12" H 4456 7178 50  0000 C CNN
-F 1 "PW" H 4456 7087 50  0000 C CNN
-F 2 "footprint:pls1x01" H 4350 7000 50  0001 C CNN
-F 3 "~" H 4350 7000 50  0001 C CNN
-	1    4350 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 6650 5300 6650
 Connection ~ 5300 6650
@@ -909,13 +870,13 @@ Wire Wire Line
 $Comp
 L uRack:R_POT RV4
 U 1 1 5C78769F
-P 7250 5000
-F 0 "RV4" H 7180 5091 50  0000 R CNN
-F 1 "10K" H 7180 5000 50  0000 R CNN
-F 2 "footprint:PTV09A4020FB103" H 7250 5000 50  0001 C CNN
-F 3 "~" H 7250 5000 50  0001 C CNN
-F 4 "R0904N-A10K" H 7150 4850 50  0000 R CNN "Тип"
-	1    7250 5000
+P 2350 800
+F 0 "RV4" H 2280 891 50  0000 R CNN
+F 1 "10K" H 2280 800 50  0000 R CNN
+F 2 "footprint:PTV09A4020FB103" H 2350 800 50  0001 C CNN
+F 3 "~" H 2350 800 50  0001 C CNN
+F 4 "R0904N-A10K" H 2250 650 50  0000 R CNN "Тип"
+	1    2350 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -984,17 +945,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 4900 8600 4900
 Connection ~ 8600 4900
-$Comp
-L uRack:Conn_01x02_Male J10
-U 1 1 5C7C57F9
-P 9400 5000
-F 0 "J10" H 9372 4973 50  0000 R CNN
-F 1 "Output" H 9372 4882 50  0000 R CNN
-F 2 "footprint:pls1x02" H 9400 5000 50  0001 C CNN
-F 3 "~" H 9400 5000 50  0001 C CNN
-	1    9400 5000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 4700 9150 5000
 Wire Wire Line
@@ -1535,27 +1485,114 @@ Wire Wire Line
 Connection ~ 10000 1950
 Wire Wire Line
 	10000 1950 10000 2000
-$Comp
-L uRack:Switch S1
-U 1 1 5C753FF1
-P 7200 4350
-F 0 "S1" H 7550 4155 50  0000 C CNN
-F 1 "Switch" H 7550 4246 50  0000 C CNN
-F 2 "footprint:smts" V 8450 4400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/M2013SS1W03.pdf" H 7850 4350 50  0001 L CNN
-F 4 "NKK SWITCHES - M2013SS1W03 - TOGGLE SWITCH, SPDT, VERT, ON-OFF-ON" H 7850 4250 50  0001 L CNN "Description"
-F 5 "18" H 7850 4150 50  0001 L CNN "Height"
-F 6 "NKK Switches" H 7850 4050 50  0001 L CNN "Manufacturer_Name"
-F 7 "M2013SS1W03" H 7850 3950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "70192098" H 7850 3650 50  0001 L CNN "Allied_Number"
-F 9 "https://www.alliedelec.com/nkk-switches-m2013ss1w03/70192098/" H 7850 3550 50  0001 L CNN "Allied Price/Stock"
-F 10 "633-M201303" H 7850 3450 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=633-M201303" H 7850 3350 50  0001 L CNN "Mouser Price/Stock"
-	1    7200 4350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7250 4850 7250 4350
 Wire Wire Line
 	7250 4350 7200 4350
+$Comp
+L uRack:R_POT RV2
+U 1 1 5F9F62E8
+P 4000 3050
+F 0 "RV2" H 3930 3096 50  0000 R CNN
+F 1 "10K" H 3900 3000 50  0000 R CNN
+F 2 "footprint:PTV09A4020FB103" H 4000 3050 50  0001 C CNN
+F 3 "~" H 4000 3050 50  0001 C CNN
+F 4 "R0904N-A10K" H 3700 2850 50  0000 C CNN "Тип"
+	1    4000 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3200 4000 3300
+Wire Wire Line
+	4000 2900 4000 2800
+$Comp
+L uRack:+5V #PWR022
+U 1 1 5FA067C8
+P 4000 2800
+F 0 "#PWR022" H 4000 2650 50  0001 C CNN
+F 1 "+5V" H 4015 2973 50  0000 C CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:-5V #PWR023
+U 1 1 5FA06C64
+P 4000 3300
+F 0 "#PWR023" H 4000 3400 50  0001 C CNN
+F 1 "-5V" H 4015 3473 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:R R25
+U 1 1 5FA1AE5D
+P 3750 2450
+F 0 "R25" H 3820 2496 50  0000 L CNN
+F 1 "24K" H 3820 2405 50  0000 L CNN
+F 2 "footprint:r0603" V 3680 2450 50  0001 C CNN
+F 3 "~" H 3750 2450 50  0001 C CNN
+	1    3750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2600 3750 3050
+Wire Wire Line
+	3750 3050 3850 3050
+Wire Wire Line
+	3750 2300 3750 2150
+Wire Wire Line
+	3750 2150 3450 2150
+Connection ~ 8050 1550
+Wire Wire Line
+	8050 1550 8050 1050
+Wire Wire Line
+	7400 1050 8050 1050
+$Comp
+L uRack:Conn_01x03_Male J10
+U 1 1 5FA76205
+P 1450 1950
+F 0 "J10" H 1556 2228 50  0000 C CNN
+F 1 "FM" H 1556 2137 50  0000 C CNN
+F 2 "footprint:pls1x03" H 1450 1950 50  0001 C CNN
+F 3 "~" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:Conn_01x03_Male J14
+U 1 1 5FA7D37C
+P 9500 5050
+F 0 "J14" H 9606 5328 50  0000 C CNN
+F 1 "sq" H 9606 5237 50  0000 C CNN
+F 2 "footprint:pls1x03" H 9500 5050 50  0001 C CNN
+F 3 "~" H 9500 5050 50  0001 C CNN
+	1    9500 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L uRack:Conn_01x03_Male J13
+U 1 1 5FA7EC4B
+P 6850 5200
+F 0 "J13" H 6956 5478 50  0000 C CNN
+F 1 "saw" H 6956 5387 50  0000 C CNN
+F 2 "footprint:pls1x03" H 6850 5200 50  0001 C CNN
+F 3 "~" H 6850 5200 50  0001 C CNN
+	1    6850 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L uRack:Conn_01x03_Male J12
+U 1 1 5F9F7439
+P 4500 7350
+F 0 "J12" H 4606 7628 50  0000 C CNN
+F 1 "PW" H 4606 7537 50  0000 C CNN
+F 2 "footprint:pls1x03" H 4500 7350 50  0001 C CNN
+F 3 "~" H 4500 7350 50  0001 C CNN
+	1    4500 7350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
