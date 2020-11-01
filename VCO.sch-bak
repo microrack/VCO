@@ -241,6 +241,28 @@ Wire Wire Line
 	4400 900  4400 1500
 Wire Wire Line
 	4400 1500 4350 1500
+$Comp
+L uRack:BC817 Q1
+U 1 1 5C6B6D11
+P 5200 1500
+F 0 "Q1" H 5391 1546 50  0000 L CNN
+F 1 "BC807" H 5391 1455 50  0000 L CNN
+F 2 "footprint:SOT-23" H 5400 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 5200 1500 50  0001 L CNN
+	1    5200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:BC817 Q2
+U 1 1 5C6B6D6D
+P 6250 1500
+F 0 "Q2" H 6440 1546 50  0000 L CNN
+F 1 "BC807" H 6440 1455 50  0000 L CNN
+F 2 "footprint:SOT-23" H 6450 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 6250 1500 50  0001 L CNN
+	1    6250 1500
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	4400 1500 5000 1500
 Connection ~ 4400 1500
@@ -1831,26 +1853,4 @@ Wire Wire Line
 	10050 3150 10050 3650
 Wire Wire Line
 	10000 1500 10000 1700
-$Comp
-L Transistor_BJT:BC847BS Q1
-U 1 1 5FA08D84
-P 5200 1500
-F 0 "Q1" H 5390 1546 50  0000 L CNN
-F 1 "BC847BS" H 4900 1250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5400 1600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 5200 1500 50  0001 C CNN
-	1    5200 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847BS Q1
-U 2 1 5FA0B50F
-P 6250 1500
-F 0 "Q1" H 6441 1546 50  0000 L CNN
-F 1 "BC847BS" H 6000 1200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6450 1600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 6250 1500 50  0001 C CNN
-	2    6250 1500
-	-1   0    0    -1  
-$EndComp
 $EndSCHEMATC
