@@ -4,4 +4,8 @@
 *.fcstd1
 *.net
 fp-info-cache
-p-lib-table
+fp-lib-table
+sym-lib-table
+*.jpg
+*.png
+*.zip
