@@ -3,8 +3,5 @@
 *.step
 *.fcstd1
 *.net
-fp-lib-table
-sym-lib-table
-*.jpg
-*.png
-*.zip
+fp-info-cache
+p-lib-table
