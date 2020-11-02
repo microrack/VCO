@@ -1822,9 +1822,9 @@ Connection ~ 5950 5000
 Text Notes 1650 6050 0    50   ~ 0
 TBD: 100 ohm
 Wire Wire Line
-	8000 2300 8950 2300
+	8000 2300 8450 2300
 Wire Wire Line
-	8000 3200 8950 3200
+	8000 3200 8450 3200
 Wire Wire Line
 	5950 5000 5950 5900
 Wire Wire Line
@@ -1853,4 +1853,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 6250 1500 5
 	2    6250 1500
 	-1   0    0    -1  
 $EndComp
+Connection ~ 8450 2300
+Wire Wire Line
+	8450 2300 8950 2300
+Connection ~ 8450 3200
+Wire Wire Line
+	8450 3200 8950 3200
 $EndSCHEMATC
