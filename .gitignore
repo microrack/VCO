@@ -11,3 +11,5 @@ sym-lib-table
 *.png
 *.zip
 VCO-cache.lib
+fp-info-cache
+fp-lib-table
