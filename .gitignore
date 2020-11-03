@@ -1,5 +1,6 @@
 *.bak
 *.kicad_pcb-bak
+*.sch-bak
 *.step
 *.fcstd1
 *.net
@@ -9,3 +10,4 @@ sym-lib-table
 *.jpg
 *.png
 *.zip
+VCO-cache.lib
