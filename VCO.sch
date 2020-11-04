@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:VCO-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1600,7 +1601,7 @@ F 3 "" H 1750 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-9V #PWR0105
+L uRack:-9V #PWR0105
 U 1 1 5FD658D4
 P 1550 6500
 F 0 "#PWR0105" H 1550 6375 50  0001 C CNN
@@ -1611,7 +1612,7 @@ F 3 "" H 1550 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+9V #PWR0106
+L uRack:+9V #PWR0106
 U 1 1 5FD84C6F
 P 1650 5200
 F 0 "#PWR0106" H 1650 5050 50  0001 C CNN
