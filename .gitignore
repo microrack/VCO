@@ -10,4 +10,4 @@ sym-lib-table
 *.jpg
 *.png
 *.zip
-VCO-cache.lib
+*-cache.lib
